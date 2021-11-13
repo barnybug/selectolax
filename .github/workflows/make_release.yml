@@ -1,9 +1,6 @@
 name: Build and upload to PyPI
 
-on:
- release:
-   types:
-     - published
+on: [push]
 
 jobs:
   build_wheels:
